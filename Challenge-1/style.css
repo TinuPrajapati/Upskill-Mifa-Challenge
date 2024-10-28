@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    text-decoration: none;
+}
+
+html,
+body {
+    max-width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(0.25turn,#f78d64 60%,white);
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++ NavBar +++++++++++++++++++++++++++++++++++++++++++++++*/
+
+header{
+    width: 100%;
+    height: 5.13vw;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 6vw;
+}
+
+header .left h1{
+    font-size: 1.2em;
+}
+
+header nav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+header nav a{
+    color: white;
+}
+
+header .right{
+    width: 12%;
+    height: 100%;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++ body +++++++++++++++++++++++++++++++++++++++++++++++*/
+.container {
+    width: 100vw;
+    height: calc(100% - 5.13vw);
+    padding: 2vw 5vw;
+    display: flex;
+}
+
+.container .left {
+    width: 60%;
+    height: 100%;
+    padding: 0vw 3vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.container .left h2{
+    font-size: 2.2em;
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+#color {
+    color: #0cacfc;
+}
+
+.container .left p {
+    width: 90%;
+    font-size: 0.7em;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.container .left button {
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 1.3vw;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+}
+
+/* .container .right {
+    width: 40%;
+    height: 100%;
+    border: 10px solid white;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.container .right img{
+    width: 100%;
+    height: 100%;
+} */
+
+.container .right {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right img{
+    width: 90%;
+    height: 90%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    object-fit: cover; 
+}

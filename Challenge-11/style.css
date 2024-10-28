@@ -1,0 +1,30 @@
+body{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+    position: relative;
+}
+
+button{
+    width: 20%;
+    height: 10%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 2vw;
+    color: white;
+}
+
+button:first-child{
+    background: linear-gradient(56deg,blue,rgb(238, 4, 255));
+    position: relative;
+}
+
+button:nth-child(2){
+    background: linear-gradient(56deg,rgb(114, 237, 114),rgb(36, 207, 193));
+}
